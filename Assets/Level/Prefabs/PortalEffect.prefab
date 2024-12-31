@@ -43,7 +43,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597406767852768037}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: dcb408cb6bde6964cbe9dc175c0017d6, type: 3}
+  m_Asset: {fileID: 8926484042661614526, guid: c125921438df0e546a927eed0bb5e50f, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -93,7 +93,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597406767852768037}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -1160,22 +1160,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 3576304933293760587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb47dbd76e1f1d340bdb2890ab2a8bab, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b127fa2d799d564aab04f252fe9933d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightCount: 8
+  lightCount: 10
   radius: 1
-  lightColor: {r: 0.7490196, g: 0.41568628, b: 0.22745098, a: 0}
-  intensity: 32
-  lights:
-  - {fileID: 4722754170902803635}
-  - {fileID: 6556562891754167404}
-  - {fileID: 4526906075420368782}
-  - {fileID: 8066520174480600833}
-  - {fileID: 2594843442051330448}
-  - {fileID: 5241843364336293560}
-  - {fileID: 6713405000420914699}
-  - {fileID: 1681212184744651523}
+  lightColor: {r: 0, g: 0, b: 0, a: 0}
+  intensity: 5
+  lights: []
   intensityScale: 1
 --- !u!95 &4548927338076747713
 Animator:
@@ -1185,7 +1177,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3576304933293760587}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -1240,7 +1232,7 @@ PlayableDirector:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5523105383091637027}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: b342f53b85dd13941a8ec93639c79841, type: 2}
   m_InitialState: 1
@@ -1274,7 +1266,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5523105383091637027}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
